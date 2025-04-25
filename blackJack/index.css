@@ -1,0 +1,54 @@
+/* CSS include some style guideline for html file */
+
+body {
+    /* decide the font for the body, try get 'Trebuchet MS' first. 
+     * If failed, will try get 'Lucida Sans Unicode' ...
+     */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    /* generate the background for the website */
+    background-image: url("background.jpg");
+    background-size: cover; /* make the background pic cover the entire website */
+    
+    /* style for the text in the body */ 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h1 {
+    /* define the specfic color for h1 tag */
+    color: goldenrod;
+}
+
+/* NOTE: id of an element need to add # in front */
+#message-el {
+    /* define specific font style for message-el element */ 
+    font-style: italic;
+}
+
+button {
+    /* style for font: more accurate color tag ... */
+    color: #016f32;
+    font-size: xx-large;
+    font-weight: bolder;  /* bolder than bold */
+    
+    /* style for button */
+    width: 250px;
+    background-color: goldenrod;
+
+    /* making space for top and bottom of the letter */
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* style for the border of the button */
+    border: none; 
+    border-radius: 2px;
+
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* tell website to keep the minimum width */
+    min-width: 500px;
+}
+
+input {
+    /* make the input box full size */
+    width: 100%;
+    /* padding === left + right + top + bottom*/
+    padding: 10px;
+    /* since we have 10px on both left and right: 100% + 10px + 10px
+       we need to resize it to suit the border */
+    box-sizing: border-box;
+
+    border: 1px solid #5f9341;
+}
+
+button {
+    background-color: #5f9341;
+    width: 150px;
+
+    font-size: medium;
+    font-weight: bolder;
+    color: aliceblue;
+    /* 5px for top and bottom, 10px for left and right */
+    padding: 5px 10px;
+
+    border-radius: 5px;
+    border: 1px solid #5f9341;
+
+    margin: 5px;
+
+}
+
+#delete-btn {
+    background-color: white;
+    color: #5f9341;
+}
+
+ul {
+    list-style: none;
+    /* modify with the help of developer tool on website */
+    padding-inline-start: 0px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+/* specify to only change the <a> element inside <li> elements */
+li a {
+    color: green;
+    font-size: large;
+}
